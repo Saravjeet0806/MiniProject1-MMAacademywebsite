@@ -1,0 +1,90 @@
+header{
+    background-color: #537FE7 ;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 42px;
+  top: 10px;
+
+}
+.left img {
+  width: 78px;
+  height: 48px;
+  filter: invert();
+}
+.left div {
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 36%;
+  margin: 20px auto; /*  auto for centering the element */
+}
+.right {
+  position: absolute;
+  display: inline-block;
+  right: 34px;
+  top: 20px;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 15px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none; /*  for removing underline in anchor tag */
+  padding: 30px 20px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  /*under line when hover*/
+  text-decoration: underline;
+  color: grey;
+}
+.btn {
+  margin: 3px 11px;
+  background-color: rgba(96, 14, 14, 0.233);
+  padding: 10px 10px;
+  border: 2px solid blue;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  height: 14px;
+  width: 55px;
+}
+::placeholder{
+    color: white;
+}
+.container {
+    margin: 111px 0px;
+    padding: 36px 29px;
+    width: 50%;
+    height: 500px;
+    color: white;
+}
+.container img {
+    width: 471px;
+    height: 321px;
+    float: left;
+    opacity: 1;
+}
+p{
+  font-size: 20px;
+
+}
+.container2{
+    margin: 20px 92px;
+    padding: 49px 66px;
+    width: 33%;
+    font-size: 40px;
+}
+.container2 ::placeholder{
+    color: black;
+}
