@@ -1,20 +1,27 @@
 header {
-  background-color: #2560eb;
+  background-color:rgb(71, 68, 68);
+  
   margin: 2px 2px;
   padding: 2px 2px;
 }
 .left {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: inline-block;
   position: absolute;
   left: 42px;
   top: 10px;
 }
+
 .left img {
+  margin: 5px;
   width: 78px;
   height: 48px;
-  filter: invert();
+  
 }
 .left div {
+  
   text-align: center;
 }
 .mid {
@@ -31,13 +38,16 @@ header {
 }
 .navbar {
   display: inline-block;
+  
 }
 .navbar li {
   display: inline-block;
   font-size: 20px;
 }
 .navbar li a {
-  color: white;
+  color: rgb(10, 10, 10);
+  font-size: 25px;
+  font-weight: 400;
   text-decoration: none; /*  for removing underline in anchor tag */
   padding: 30px 20px;
 }
@@ -51,7 +61,7 @@ header {
   margin: 3px 11px;
   background-color: rgba(96, 14, 14, 0.233);
   padding: 10px 10px;
-  border: 2px solid blue;
+  border: 2px solid rgb(255, 0, 0);
   border-radius: 7px;
   font-size: 15px;
   cursor: pointer;
