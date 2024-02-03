@@ -1,13 +1,12 @@
 header {
-  background-color:rgb(71, 68, 68);
-  
   margin: 2px 2px;
   padding: 2px 2px;
 }
 .left {
-  font-weight: bolder;
-  color: rgb(0, 0, 0);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #ebebeb;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: inline-block;
   position: absolute;
   left: 42px;
@@ -18,10 +17,8 @@ header {
   margin: 5px;
   width: 78px;
   height: 48px;
-  
 }
 .left div {
-  
   text-align: center;
 }
 .mid {
@@ -38,30 +35,28 @@ header {
 }
 .navbar {
   display: inline-block;
-  
 }
 .navbar li {
   display: inline-block;
   font-size: 20px;
 }
 .navbar li a {
-  color: rgb(10, 10, 10);
+  color: #ebebeb;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none; /*  for removing underline in anchor tag */
   padding: 30px 20px;
 }
 .navbar li a:hover,
 .navbar li a.active {
   /*under line when hover*/
-  text-decoration: underline;
-  color: rgb(8, 0, 0);
+  color: rgb(133, 14, 14);
 }
 .btn {
   margin: 3px 11px;
-  background-color: rgba(96, 14, 14, 0.233);
+  background-color: rgba(20, 18, 18, 0.233);
   padding: 10px 10px;
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 7px;
   font-size: 15px;
   cursor: pointer;
@@ -69,16 +64,15 @@ header {
   width: 55px;
 }
 ::placeholder {
-  color: white;
+  color: #ebebeb;
 }
 .container {
-
   position: relative;
   margin: 100px 0px;
   padding: 20px 30px;
   width: 40%;
   height: 700px;
-  color: rgba(233, 230, 230, 0.723);
+  color: #ebebeb;
 }
 .container img {
   border-radius: 10px;
@@ -95,7 +89,6 @@ p {
   text-align: center;
 }
 .container2 {
- 
   margin-left: 50px;
 
   width: 33%;
@@ -115,15 +108,19 @@ p {
   height: 321px;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #008cba;
+  background-color: rgb(71, 68, 68);
 }
 
 .container:hover .overlay {
   opacity: 1;
 }
+.text a{
+  color: #ebebeb;
+  text-decoration: none;
+}
 .text {
-  color: white;
-  font-size: 20px;
+  color: rgb(218, 144, 144);
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -132,3 +129,13 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* responsiveness to website */
+/* @media only screen and (min-width: 768px) {
+ .container2{
+  border: 2px solid green;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 600px;
+ }
+} */
